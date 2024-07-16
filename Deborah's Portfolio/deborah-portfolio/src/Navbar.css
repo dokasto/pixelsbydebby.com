@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2rem 2rem; */
+    color: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #EEF2FB;
+    cursor: pointer;
+  }
+
+  .navbar h1 {
+    color: #000000;
+    font-size: 1.4rem;
+  }
+
+  .navbar h1 span {
+    color: #000000;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 3rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+      color: #000000;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    
+    .navbar-links a:hover {
+        color: #000000;
+        text-decoration: underline;
+  }
+  
