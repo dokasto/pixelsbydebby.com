@@ -5,22 +5,22 @@
     justify-content: space-between;
     align-items: center;
     /* padding: 2rem 2rem; */
-    color: white;
+    color: #000000;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    background-color: #0E141B;
+    background-color: #EEF2FB;
     cursor: pointer;
   }
 
   .navbar h1 {
-    color: white;
+    color: #000000;
     font-size: 1.4rem;
   }
 
   .navbar h1 span {
-    color: #1ABC9C;
+    color: #000000;
   }
 
   img {
@@ -46,13 +46,14 @@
   }
   
   .navbar-links a {
-      color: white;
+      color: #000000;
       text-decoration: none;
+      font-weight: 500;
       font-size: 1rem;
     }
     
     .navbar-links a:hover {
-        color: #1ABC9C;
+        color: #000000;
         text-decoration: underline;
   }
   

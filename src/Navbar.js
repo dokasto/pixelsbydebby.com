@@ -25,7 +25,8 @@ const Navbar = () => {
           <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>
         </li>
         <li>
-          <ScrollLink to="resume" smooth={true} duration={500}>Resume</ScrollLink>
+          <a href="https://docs.google.com/document/d/1_-BW9QFek804s2_PNqc8WlwLqMk4dRh9FcTxcJFhP8s/edit#heading=h.qo30s739v4zu" target="_blank" rel="noopener noreferrer">Resume</a>
+
         </li>
       </ul>
     </motion.nav>

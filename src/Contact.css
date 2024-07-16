@@ -1,57 +1,63 @@
+/* Contact.css */
+
 .contact-container {
-    background-color: #0E141B; 
-    color: #fbfdff; 
-    padding: 4rem 2rem;
-    text-align: center;
-  }
-  
-  .contact-container h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    margin-top: 0rem;
-    user-select: none;
-  }
-  
-  .socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 2rem;
-    border-bottom: 2px solid #62F8EC;
-  }
-  
-  .social-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background: #0E141B;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #FFFFFF;
-    transition: background 0.3s ease, transform 0.3s ease;
-  }
-  
-  .social-item:hover {
-    transform: translateY(-5px);
-    color: #1ABC9C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  /* background: linear-gradient(135deg, #0e141b, #1abc9c); */
+  background: #1F1F1F;
+  min-height: 100vh;
+  color: #fbfdff;
+  text-align: center;
+}
 
-  }
-  
-  .social-item img {
-    width: 24px;
-    height: 24px;
-  }
+.contact-container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  user-select: none;
+}
 
-  .socials a {
-    text-decoration: none;
-  }
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
 
-  footer {
-    font-weight: 100;
-  }
+.socials a {
+  text-decoration: none;
+}
 
-  
+.social-item {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #fbfdff;
+}
+
+.social-item:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.social-item img {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}

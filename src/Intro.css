@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
 
-
 .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  background: #0E141B;
-  color: #fbfdff;
+  height: 100vh;
+  background: #EEF2FB;
+  color: #0A0A0A;
   text-align: center;
   padding: 2rem;
 }
@@ -21,7 +20,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 4rem;  
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .intro-text h2 {
@@ -33,7 +32,7 @@
 
 .intro-text p {
   font-family: "Hind Madurai", sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   font-size: 1.25rem;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -41,6 +40,4 @@
   max-width: 600px; 
 }
 
-.intro-text span {
-  color: #1ABC9C;
-}
+
