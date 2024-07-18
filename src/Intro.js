@@ -37,7 +37,7 @@ const Intro = () => {
       </motion.div>
       <motion.div className="intro-text" variants={childVariants}>
         <p>
-          A Budding Product & UX Designer who is obsessed with creating amazing
+          who is obsessed with creating amazing
           user experiences. I love teaming up with awesome people to deliver
           digital magic that makes you smile!
         </p>

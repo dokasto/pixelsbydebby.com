@@ -1,89 +1,100 @@
 .my-works {
-    background-color: #0A0A0A; 
-    color: #fbfdff;
-    padding: 0;
-    text-align: center;
-    justify-content: center;
-    height: 150vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
+  background-color: #0A0A0A;
+  color: #fbfdff;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-works h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-top: 80px;
+  user-select: none;
+  color: #fbfdff;
+}
+
+.work-list {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 0;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 0;
+}
+
+.work-item-wrapper {
+  background: #fbfdff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  height: 425px;
+  padding-bottom: 1rem;
+}
+
+.work-item {
+  background: #1F1F1F;
+  border-radius: 8px;
+  border: 1px solid #fbfdff;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  height: 65%;
+}
+
+.work-item-wrapper:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.work-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #1f1f1f;
+}
+
+.behance-link-btn {
+  height: 2rem;
+  width: 10rem;
+  background-color: #1F1F1F;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: #fbfdff;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 700px) {
   .my-works h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    margin-top: 80px;
-    user-select: none;
-    color: #fbfdff;
-
+      margin-bottom: 0px;
   }
-  
+
   .work-list {
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 0;
-    flex-wrap: wrap;
-    gap: 3rem;
-    padding: 0;
+    padding: 3rem;
   }
+}
 
-  .work-item-wrapper {
-    background: #fbfdff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 300px;
-    height: 425px;
-    padding-bottom: 1rem;
-  }
-  
-  .work-item {
-    background: #1F1F1F;
-    border-radius: 8px;
-    border: 1px solid #fbfdff;
-    overflow: hidden;
-    width: 300px;
-    height: 65%;
-  }
-  
-  .work-item-wrapper:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .work-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .work-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: #1f1f1f;
-
-  }
-
-  .behance-link-btn {
-      height: 2rem;
-      width: 10rem;
-      background-color: #1F1F1F;
-      border: none;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 500;
-      font-size: 1rem;
-      border-radius: 5px;
-      color: #fbfdff;
-  } 
-  

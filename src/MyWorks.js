@@ -4,7 +4,7 @@ import "./MyWorks.css";
 
 const works = [
   {
-    title: "Money transfere screen",
+    title: "Money transfer screens",
     imageUrl: "/BankApp.png",
     behanceUrl: "https://www.behance.net/gallery/200163207/Money-Transfer-Bank-App",
   },
@@ -52,7 +52,7 @@ const MyWorks = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="behance-link-btn">View Ui Design</button>
+                <button className="behance-link-btn">View UI Design</button>
               </a>
             </div>
           </div>
