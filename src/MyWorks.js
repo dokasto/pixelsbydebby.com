@@ -5,32 +5,32 @@ import "./MyWorks.css";
 const works = [
   {
     title: "Money transfer screens",
-    imageUrl: "/BankApp.png",
+    imageUrl: "/bank-app.png",
     behanceUrl: "https://www.behance.net/gallery/200163207/Money-Transfer-Bank-App",
   },
   {
     title: "JEKAJO",
-    imageUrl: "/Music App.png",
+    imageUrl: "/music-app.png",
     behanceUrl: "https://www.behance.net/gallery/159510245/Music-APP-Case-Study",
   },
   {
     title: "Dee Pet",
-    imageUrl: "A pet app.png",
+    imageUrl: "a-pet-app.png",
     behanceUrl: "https://www.behance.net/gallery/159604439/A-Pet-Care-Service-Case-Study",
   },
   {
     title: "Food Delivery Screens",
-    imageUrl: "/Food Delivery App.png",
+    imageUrl: "/food-app.png",
     behanceUrl: "https://www.behance.net/gallery/174612403/A-Simple-Food-Delivery-App",
   },
   {
     title: "Adira's Health",
-    imageUrl: "/Women Hormal app.png",
+    imageUrl: "/women-app.png",
     behanceUrl: "https://www.behance.net/gallery/159593465/Women-Hormonal-Health-Case-Study",
   },
   {
     title: "Budi",
-    imageUrl: "Budi App.png",
+    imageUrl: "budi-app.png",
     behanceUrl: "https://www.behance.net/gallery/159741903/BudiHangout-Case-Study",
   },
 ];
