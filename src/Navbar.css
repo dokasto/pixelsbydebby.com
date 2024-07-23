@@ -9,10 +9,7 @@
   width: 100%;
   top: 0;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.2); 
-  backdrop-filter: blur(10px);
-  border-radius: 2px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #EEF2FB; 
   cursor: pointer;
 }
 
@@ -39,6 +36,7 @@ img {
 .navbar-links {
   list-style: none;
   display: flex;
+  flex-wrap: nowrap;
   gap: 1rem;
   margin-right: 3rem;
 }
@@ -60,7 +58,7 @@ img {
   text-decoration: underline;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .navbar-links a  {
     text-wrap: nowrap;
   }
